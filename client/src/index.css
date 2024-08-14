@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  font-family: "Protest Revolution", sans-serif !important;
+    
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  font-size: 20px !important;
+}
+.flex-container{
+  display: flex !important;
+}
+.btn{
+  background-color: red !important;
+  color: white !important;
+}
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.fa-plus-circle{
+  color:green;
+  margin:5px;
+}
+.fa-minus-circle{
+  color:red;
+  margin:5px;
+}
+.fa-trash{
+  color:red;
+}
+
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+.adminfunction{
+  padding: 10px;
+  background-color: rgb(2, 2, 94);
+}
+.adminfunction li{
+  list-style-type: none !important;
+  display: inline !important;
+  color: white !important;
+}
+.adminfunction li a{
+  padding: 20px;
+  color: white !important;
+}
+
+td,th,tr{
+  text-align: left;
+}
+
+.thead-dark {
+  background-color: black !important;
+}
